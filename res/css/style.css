@@ -1,0 +1,67 @@
+html {
+    min-height: 100%;
+    background-image: url('C:\Users\ilmarmol\Documents\Projekt-Real-time-stradegy-Ehakoda\res\images\generic_backround.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: black;
+}
+
+
+/* Keeps header/footer touching the top/bottom of the page, instead of there being a gap.*/
+body {
+    line-height: 1.6;
+    margin: 0;
+}
+
+/*No padding and also no dots for lists.*/
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/*Links aren't underlined*/
+a {
+    text-decoration: none;
+}
+
+/*Keeps header logo from touching the right side of the screen.*/
+.logo {
+    padding-right: 8px;
+}
+
+.header {
+    /*Header box color and padding.*/
+    background-color: #bfbfbf;
+    border-radius: 15px;
+
+    /*Header box is sticky.
+    position: sticky;
+    top: 0px;*/
+
+    /*Items in header box are in a row, stretched to the width of the screen.*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*All lists' items are shown in a row.*/
+li {
+    padding: 10px 10px;
+    text-align: left;
+    display: inline-block;
+    font-size: .99em;
+}
+
+/* annab grindis olevale p tekstile varju*/
+p:hover{
+    text-shadow: 1px 1px 5px black;
+}
