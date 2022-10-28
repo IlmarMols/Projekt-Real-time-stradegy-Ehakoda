@@ -1,6 +1,6 @@
-html {
+.main_page {
     min-height: 100%;
-    background-image: url('C:\Users\ilmarmol\Documents\Projekt-Real-time-stradegy-Ehakoda\res\images\generic_backround.jpg');
+    background-image: url('../images/generic_backround.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -65,3 +65,13 @@ li {
 p:hover{
     text-shadow: 1px 1px 5px black;
 }
+
+/*here we define the location of middle box*/
+.middle {
+    background-color: #dadbdc;
+    border-radius: 15px;
+    padding: .5em 10px;
+    margin: auto;
+    width: 70%;
+}
+
