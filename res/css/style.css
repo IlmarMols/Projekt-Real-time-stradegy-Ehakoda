@@ -75,3 +75,16 @@ p:hover{
     width: 70%;
 }
 
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: .7em;
+    padding-bottom: .7em;
+}
+
+.banner{
+    background-color: #dadbdc;
+}
+
